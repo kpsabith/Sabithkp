@@ -40,7 +40,7 @@ Hello! my name is *{}*.
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 🤖ൻ ആവിശ്യമായ കോഡ്
-എന്നെ ഉണ്ടാക്കിയത് [🍂.ഇദ്ദേഹം.🍂](https://t.me/Mo_Tech_YouTube) ആണ്...!!
+എന്നെ ഉണ്ടാക്കിയത് [🍂.ഇദ്ദേഹം.🍂](https://t.me/Kpsabith) ആണ്...!!
 [📃.വെബ്സൈറ്റ് ലിങ്ക്.📃](https://www.github.com/Mo-Tech-Muhammed/Management) എന്റെ കോഡ് നിങ്ങൾക്ക്  കാണാവുന്നതാണ്. (വെബ്സൈറ്റ് ലിങ്ക് ക്ലിക്ക് ചെയ്യുക)
 [😎SUBSCRIBE MY YOUTUBE CHANNEL😎](https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ)."""
 
@@ -133,13 +133,13 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(DEVIL_IMG,PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_USERNAME ),reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="📞Help",url="t.me/{}?start=help".format(bot.username)),InlineKeyboardButton(text=" ✅️ Owner.",url="https://t.me/Mo_Tech_YouTube")],  
-                                                [InlineKeyboardButton(text="YouTube.",url="https://www.youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ"),InlineKeyboardButton(text="Share.",url="https://t.me/share/url?url=https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ")]]),disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
+                                                [[InlineKeyboardButton(text="📞Help",url="t.me/{}?start=help".format(bot.username)),InlineKeyboardButton(text=" ✅️ Owner.",url="https://t.me/Kpsabith")],  
+                                                [InlineKeyboardButton(text="👨‍👨‍👧‍👧ɢʀᴏᴜᴘ",url="https://t.me/joinchat/SVFUgR2wRZzPxPTIDssuTQ"),InlineKeyboardButton(text="🎞ᴄʜᴀɴɴᴇʟ",url="https://t.me/joinchat/AAAAAErHStu34vKpKFZb7w")]]),disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
     else:
          
 
         update.effective_message.reply_text("Heya, How can I help you? 🙂",reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="❓ Help",url="t.me/{}?start=help".format(bot.username)),InlineKeyboardButton(text="Share.",url="https://t.me/share/url?url=https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ")]]))
+                                                [[InlineKeyboardButton(text="❓ Help",url="t.me/{}?start=help".format(bot.username)),InlineKeyboardButton(text="🎞ᴄʜᴀɴɴᴇʟ",url="https://t.me/joinchat/AAAAAErHStu34vKpKFZb7w")]]))
                                   
 # for test purposes
 def error_callback(bot, update, error):
