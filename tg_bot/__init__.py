@@ -121,6 +121,6 @@ from tg_bot.modules.helper_funcs.handlers import CustomCommandHandler, CustomReg
 
 # make sure the regex handler can take extra kwargs
 tg.RegexHandler = CustomRegexHandler
-
+a
 if ALLOW_EXCL:
     tg.CommandHandler = CustomCommandHandler
