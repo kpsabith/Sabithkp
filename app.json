@@ -33,7 +33,7 @@
     },
     "OWNER_NAME": {
       "description": "Your name",
-      "value": "𝓜𝓸 𝓣𝓮𝓬𝓱"
+      "value": "ᴍᴜʜᴀᴍᴍᴇᴅ sᴀʙɪᴛʜ ᴋᴘ"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
