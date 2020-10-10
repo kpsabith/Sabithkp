@@ -134,7 +134,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(DEVIL_IMG,PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_USERNAME ),reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="📞Help",url="t.me/{}?start=help".format(bot.username)),InlineKeyboardButton(text=" ✅️ Owner.",url="https://t.me/Kpsabith")],  
-                                                [InlineKeyboardButton(text="👨‍👨‍👧‍👧ɢʀᴏᴜᴘ",url="https://t.me/joinchat/SVFUgR2wRZzPxPTIDssuTQ"),InlineKeyboardButton(text="🎞ᴄʜᴀɴɴᴇʟ",url="https://t.me/joinchat/AAAAAErHStu34vKpKFZb7w")]]),disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
+                                                [InlineKeyboardButton(text="👨‍👨‍👧‍👧ore",url="https://t.me/joinchat/SVFUgR2wRZzPxPTIDssuTQ"),InlineKeyboardButton(text="🎞ᴄʜᴀɴɴᴇʟ",url="https://t.me/joinchat/AAAAAErHStu34vKpKFZb7w")]]),disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
     else:
          
 
